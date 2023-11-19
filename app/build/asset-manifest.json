@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6becb76a.css",
+    "main.js": "/static/js/main.fe47f664.js",
+    "static/media/Ingreso.jpg": "/static/media/Ingreso.52c44172e468725cd2ac.jpg",
+    "static/media/BackgroundPdf.png": "/static/media/BackgroundPdf.cfa2362ed7edd70a4bfc.png",
+    "static/media/BackgroundEnd.png": "/static/media/BackgroundEnd.bb70e4860aa2428424e8.png",
+    "static/media/GothamMedium.ttf": "/static/media/GothamMedium.0a910c0b9d50be6aa3dc.ttf",
+    "static/media/1.png": "/static/media/1.eae03c9bb612706cf449.png",
+    "static/media/Frame 108.svg": "/static/media/Frame 108.908ba61a6b684b68ea8f1b721b9f97f7.svg",
+    "index.html": "/index.html",
+    "static/media/bx_bx-home-alt.svg": "/static/media/bx_bx-home-alt.d81d075463574356a88320d367f4d32d.svg",
+    "static/media/seller_add.svg": "/static/media/seller_add.78c9be75aa3948d34c773a2081e6fcb7.svg",
+    "static/media/mdi_file-download-outline.svg": "/static/media/mdi_file-download-outline.8d33eda85b2bfcefca66c8b254dd2ef9.svg",
+    "static/media/mdi_pencil.svg": "/static/media/mdi_pencil.1a6811b2fbc5a62445b317bec13f90cc.svg",
+    "static/media/carbon_add.svg": "/static/media/carbon_add.ce83e29881b16a29faae13b778887f13.svg",
+    "main.6becb76a.css.map": "/static/css/main.6becb76a.css.map",
+    "main.fe47f664.js.map": "/static/js/main.fe47f664.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6becb76a.css",
+    "static/js/main.fe47f664.js"
+  ]
+}

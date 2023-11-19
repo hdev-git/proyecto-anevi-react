@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.degradiant {
+  background-color: rgb(148, 212, 11);
+  background-color: -moz-linear-gradient(90deg, rgba(148, 212, 11, 1) 0%, rgba(0, 209, 194, 1) 100%);
+  background-color: -webkit-linear-gradient(90deg, rgba(148, 212, 11, 1) 0%, rgba(0, 209, 194, 1) 100%);
+  background-color: linear-gradient(90deg, rgba(148, 212, 11, 1) 0%, rgba(0, 209, 194, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#94d40b", endColorstr="#00d1c2", GradientType=1);
+}
+
+.ColorButtonMain {
+  color: #00A297;
+  border-color: #00A297;
+  background-color: white;
+}
+
+.ColorButtonMain:hover {
+  background-color: #00A297;
+  color: white;
+}
+
+.ColorButtonDelete {
+  color: white;
+  border-color: white;
+  background-color: red;
+}
+
+.ColorButtonDelete:hover {
+  background-color: white;
+  border-color: red;
+  color: red;
+}
+
+.ColorButtonMainGreen {
+  color: #84BE08;
+  border-color: #84BE08;
+  background-color: white;
+}
+
+.ColorButtonMainGreen:hover {
+  background-color: #84BE08;
+  color: white;
+}
+
+.ColorButtonAlter {
+  color: rgba(132, 190, 8, 1);
+  border-color: rgba(132, 190, 8, 1);
+  background-color: white;
+}
+
+.ColorButtonAlter:hover {
+  background-color: rgba(132, 190, 8, 1);
+  color: white;
+}
+
+.ColorButtonMainInv {
+  color: white;
+  background-color: #00A297 !important;
+}
+
+.ColorButtonMainInv:hover {
+  background-color: white !important;
+  border-color: #00A297;
+  color: #00A297;
+}
+
+.content-modal {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.TouchGreen {
+  color: rgba(132, 190, 8, 1) !important;
+}
+
+.TouchGreen:hover {
+  color: white !important;
+}
+
+.buttonDelete {
+  margin: auto;
+  display: block;
+  padding: .25em 1.25em;
+  border-radius: 1.25em;
+  color: rgb(255, 82, 66);
+  border: 2px solid rgb(255, 82, 66);
+}
+
+.buttonDelete:hover {
+  color: white;
+  background-color: rgb(255, 82, 66);
+}
+
+.paginationLeftAndRightButton {
+  color: #004750;
+  border: 1px solid #004750;
+  border-radius: 6px;
+}
+
+.paginationLeftAndRightButton:hover {
+  background: #004750;
+  color: white;
+}
+
+.paginationButtons {
+  color: #00A297;
+  border: 1px solid #00A297;
+  border-radius: 6px;
+  background: transparent;
+}
+
+.paginationButtons:hover {
+  background: #00A297;
+  color: white;
+}
+
+.activePagination {
+  background: #00A297;
+  color: white;
+}
+select {
+  outline: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+select::-ms-expand {
+  display: none;
+}
+.select {
+  width: 100%;
+  min-width: 15ch;
+  border: 1px solid #777;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  display: grid;
+  grid-template-areas: "select";
+  align-items: center;
+}
+.select::after {
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  background-color: #777;
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  justify-self: end;
+}
+select,
+.select:after {
+  grid-area: select;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  top: -5px;
+  left: 75%;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltipimg:hover .tooltiptext {
+  visibility: visible;
+}
